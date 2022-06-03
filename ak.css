@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:url(SAVE_20190102_070641.jpeg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+        
+}
+
+.main-nav{
+    float: right;
+    font-style: none;
+    margin-top: 20px;
+    margin-right: 90px;
+}
+.main-nav li{
+    display: inline-block;
+        margin-right: 20px;
+    
+
+}
+.main-nav li a{
+    color: blue;
+    text-decoration: none;
+    padding: 5px,20px;
+    font-family: "roboto", sans-serif;
+    font-size: 30px;
+}
+.main-nav li.active a{
+    border: 1px solid white;
+        padding: 10px;
+    background-color:green;
+    color:white;
+
+}
+.main-nav li a:hover{
+    border: 1px solid white;
+        padding: 10px;
+        color: aqua;
+        background-color: orangered;
+
+
+
+}
+.logo img{
+    width: 150px;
+    height: auto;
+    float: left;
+
+}
+body
+{
+    font-family: monospace;
+    
+}
+.row{
+    max-width: 1200px;
+    margin: auto;
+}
+.hero{
+    position: absolute;
+    width: 1000px;
+    margin-top: 200px;
+    margin-left: 0px;
+    text-align: center;
+    color: black;
+    font-size: 40px;
+    text-transform: uppercase;
+    
+}
+.button{
+    margin: 40px;
+    }
+.btn{
+    border: 3px solid white;
+    padding: 10px,30px;
+    color: aqua;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.btn-one{
+    background-color:orangered ;
+    font-family: Roboto;
+}
+.design-ext{
+    color: orangered;
+    font-family: monospace;
+    margin-bottom: 12px;
+   font-size: 25px;
+}
+
